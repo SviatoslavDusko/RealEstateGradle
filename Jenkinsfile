@@ -13,12 +13,12 @@ pipeline {
                 sh './gradlew model '
             }
         }
-        stage ('DemoJavaTask') {
-            steps {
-                echo 'DemoJavaTask...'
-                sh './gradlew DemoJavaTask'
-            }
-        }
+//         stage ('DemoJavaTask') {
+//             steps {
+//                 echo 'DemoJavaTask...'
+//                 sh './gradlew DemoJavaTask'
+//             }
+//         }
         stage ('Deploy') {
             steps {
                 echo 'Deploying...'
