@@ -6,6 +6,7 @@ public class SomeTest extends BaseTest{
     public void doSomething(){
         System.out.println("bAssert");
         Assert.assertTrue(true);
+        System.out.println("someTExt");
         System.out.println("aAssert");
     }
 
