@@ -1,6 +1,6 @@
 [ {
-  "buildOrder" : 47,
-  "reportUrl" : "http://localhost:8080/job/GradleJob/47/allure",
+  "buildOrder" : 48,
+  "reportUrl" : "http://localhost:8080/job/GradleJob/48/allure",
   "reportName" : "AllureReport",
   "data" : {
     "run" : 0,
