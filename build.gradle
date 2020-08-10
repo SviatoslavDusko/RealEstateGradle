@@ -9,12 +9,12 @@ repositories {
     mavenCentral()
 }
 
-plugins {
-    allurePlugin {
-        id = 'io.qameta.allure'
-        implementationClass = 'io.qameta.allure.gradle.AllurePlugin'
-    }
-}
+//plugins {
+//    allurePlugin {
+//        id = 'io.qameta.allure'
+//        implementationClass = 'io.qameta.allure.gradle.AllurePlugin'
+//    }
+//}
 
 dependencies {
     compile group: 'org.testng', name: 'testng', version: '6.8'
