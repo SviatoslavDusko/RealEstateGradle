@@ -7,7 +7,7 @@
     <test name="DataBaseTests" parallel="false" preserve-order="true">
         <classes>
             <class name="RETests.Test1"/>
-<!--            <class name="SomeTest"/>-->
+            <class name="SomeTest"/>
         </classes>
     </test>
 <!--    <test name="DataBaseTests" parallel="false" preserve-order="true">-->

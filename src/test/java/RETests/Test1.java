@@ -8,7 +8,7 @@ public class Test1 {
 
     @Test
     public void someTest(){
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
         System.out.println("aloooo");
     }
 }
