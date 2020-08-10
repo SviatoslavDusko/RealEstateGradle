@@ -10,5 +10,4 @@ public class SomeTest extends BaseTest{
         System.out.println("someTExt");
         System.out.println("aAssert");
     }
-
 }
