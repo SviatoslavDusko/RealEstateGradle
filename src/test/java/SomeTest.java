@@ -14,5 +14,6 @@ public class SomeTest extends BaseTest{
         logger.info("afterDoSomethingAssert");
         System.out.println("someTExt");
         System.out.println("aAssert");
+
     }
 }
