@@ -9,12 +9,10 @@ repositories {
     mavenCentral()
 }
 
-gradlePlugin {
-    plugins {
-        allurePlugin {
-            id = 'io.qameta.allure'
-            implementationClass = 'io.qameta.allure.gradle.AllurePlugin'
-        }
+plugins {
+    allurePlugin {
+        id = 'io.qameta.allure'
+        implementationClass = 'io.qameta.allure.gradle.AllurePlugin'
     }
 }
 
