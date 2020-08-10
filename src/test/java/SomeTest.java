@@ -10,7 +10,7 @@ public class SomeTest extends BaseTest{
     public void doSomething(){
         System.out.println("bAssert");
         logger.info("beforeDoSomethingAssert");
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
         logger.info("afterDoSomethingAssert");
         System.out.println("someTExt");
         System.out.println("aAssert");
