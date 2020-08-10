@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SomeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-10T15:08:23" hostname="MacBook-Pro-Swiatoslav.local" time="0.004">
+<testsuite name="SomeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-10T15:19:22" hostname="MacBook-Pro-Swiatoslav.local" time="0.005">
   <properties/>
-  <testcase name="doSomething" classname="SomeTest" time="0.004"/>
+  <testcase name="doSomething" classname="SomeTest" time="0.005"/>
   <system-out><![CDATA[bAssert
 someTExt
 aAssert
 ]]></system-out>
-  <system-err><![CDATA[Aug 10, 2020 6:08:23 PM SomeTest doSomething
+  <system-err><![CDATA[Aug 10, 2020 6:19:22 PM SomeTest doSomething
 INFO: beforeDoSomethingAssert
-Aug 10, 2020 6:08:23 PM SomeTest doSomething
+Aug 10, 2020 6:19:22 PM SomeTest doSomething
 INFO: afterDoSomethingAssert
 ]]></system-err>
 </testsuite>
