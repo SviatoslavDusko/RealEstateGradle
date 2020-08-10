@@ -26,6 +26,7 @@ test {
     }
     testLogging {
         events "PASSED", "STARTED", "FAILED", "SKIPPED"
+        info.events = ["failed", "skipped"]
     }
     systemProperty 'env', System.getProperty('env', 'all')
 }
