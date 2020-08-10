@@ -13,25 +13,25 @@ pipeline {
 //                 sh './gradlew model '
             }
         }
-        stage ('DemoJavaTask') {
-            steps {
-                echo 'DemoJavaTask...'
-                sh './gradlew DemoJavaTask'
-            }
-        }
-        stage ('Deploy') {
-            steps {
-                echo 'Deploying...'
-                sh 'ls'
-                dir ("build/libs") {
-                    script {
-                        withEny(['JENKINS_NODE_COOKIE=dontkill']) {
-                            echo '&'
-                            sh 'java -jar lection-0.0.1-SHAPSHOT.jar &'
-                        }
-                    }
-                }
-            }
-        }
+//         stage ('DemoJavaTask') {
+//             steps {
+//                 echo 'DemoJavaTask...'
+//                 sh './gradlew DemoJavaTask'
+//             }
+//         }
+//         stage ('Deploy') {
+//             steps {
+//                 echo 'Deploying...'
+//                 sh 'ls'
+//                 dir ("build/libs") {
+//                     script {
+//                         withEny(['JENKINS_NODE_COOKIE=dontkill']) {
+//                             echo '&'
+//                             sh 'java -jar lection-0.0.1-SHAPSHOT.jar &'
+//                         }
+//                     }
+//                 }
+//             }
+//         }
     }
 }
