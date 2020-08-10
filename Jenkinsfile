@@ -7,7 +7,7 @@ pipeline {
                 git url: 'https://github.com/SviatoslavDusko/RealEstateGradle.git'
             }
         }
-        stage ('Build') {
+        stage ('Test') {
             steps {
                 sh './gradlew clean test'
 //                 sh './gradlew model '
