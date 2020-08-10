@@ -19,13 +19,14 @@ repositories {
 dependencies {
     compile group: 'org.testng', name: 'testng', version: '6.8'
 }
-testLogging {
-    events "PASSED", "STARTED", "FAILED", "SKIPPED"
-}
 
 test {
     useTestNG() {
         suites 'testSuite.xml'
     }
+    testLogging {
+        events "PASSED", "STARTED", "FAILED", "SKIPPED"
+    }
+    systemProperty 'env', System.getProperty('env', 'all')
 }
 
