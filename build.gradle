@@ -8,7 +8,7 @@ buildscript {
 }
 
 plugins {
-    id "io.qameta.allure" version "2.5"
+    id 'io.qameta.allure' version "2.5"
 //    id "com.gradle.build-scan" version "1.13.4"
 }
 
@@ -32,6 +32,7 @@ repositories {
 
 dependencies {
     compile group: 'org.testng', name: 'testng', version: '6.8'
+    compile group: 'io.qameta.allure', name: 'allure-testng', version: '2.13.5'
 }
 
 test {
