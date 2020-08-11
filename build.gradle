@@ -1,15 +1,8 @@
 
-buildscript {
-    repositories {
-        jcenter()
-    }
-    dependencies {
-        classpath "io.qameta.allure:allure-gradle:2.3"
-    }
-}
 
 plugins {
     id 'java'
+    id 'io.qameta.allure'
 }
 
 group 'org.example'
@@ -38,11 +31,14 @@ test {
         events "PASSED", "STARTED", "FAILED", "SKIPPED"
     }
 }
-
-plugins {
-    id 'io.qameta.allure'
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.3"
+    }
 }
-
 allure {
     version = '2.2.1'
     autoconfigure = true
