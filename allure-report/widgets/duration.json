@@ -1,1 +1,21 @@
-[ ]
+[ {
+  "uid" : "487239e3d350b68d",
+  "name" : "someTest",
+  "time" : {
+    "start" : 1597143627449,
+    "stop" : 1597143627478,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eaa5871bab487de4",
+  "name" : "doSomething",
+  "time" : {
+    "start" : 1597143627712,
+    "stop" : 1597143627715,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

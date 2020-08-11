@@ -1,0 +1,94 @@
+{
+  "uid" : "eaa5871bab487de4",
+  "name" : "doSomething",
+  "fullName" : "SomeTest.doSomething",
+  "historyId" : "319ceca27a319331bb351692f1d0ce44",
+  "time" : {
+    "start" : 1597143627712,
+    "stop" : 1597143627715,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1597143627680,
+      "stop" : 1597143627689,
+      "duration" : 9
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "after",
+    "time" : {
+      "start" : 1597143627720,
+      "stop" : 1597143627723,
+      "duration" : 3
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SomeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "SomeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "doSomething"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestSuit"
+  }, {
+    "name" : "suite",
+    "value" : "DataBaseTests"
+  }, {
+    "name" : "subSuite",
+    "value" : "SomeTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Swiatoslav.local"
+  }, {
+    "name" : "thread",
+    "value" : "69807@MacBook-Pro-Swiatoslav.local.Test worker(10)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eaa5871bab487de4.json",
+  "parameterValues" : [ ]
+}

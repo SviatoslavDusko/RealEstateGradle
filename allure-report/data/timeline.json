@@ -1,5 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "name" : "timeline",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "MacBook-Pro-Swiatoslav.local",
+    "children" : [ {
+      "name" : "69807@MacBook-Pro-Swiatoslav.local.Test worker(10)",
+      "children" : [ {
+        "name" : "someTest",
+        "uid" : "487239e3d350b68d",
+        "parentUid" : "1a932f3430a6e93db2c61d5c022cbf39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597143627449,
+          "stop" : 1597143627478,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "doSomething",
+        "uid" : "eaa5871bab487de4",
+        "parentUid" : "1a932f3430a6e93db2c61d5c022cbf39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597143627712,
+          "stop" : 1597143627715,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a932f3430a6e93db2c61d5c022cbf39"
+    } ],
+    "uid" : "fd13a531facb0648773c19e3cec8e4fe"
+  } ]
 }
