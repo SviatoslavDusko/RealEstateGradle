@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SomeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-08-11T10:10:26" hostname="MacBook-Pro-Swiatoslav.local" time="0.003">
+  <properties/>
+  <testcase name="doSomething" classname="SomeTest" time="0.003"/>
+  <system-out><![CDATA[Before
+After
+]]></system-out>
+  <system-err><![CDATA[Aug 11, 2020 1:10:26 PM BaseTest before
+INFO: Before Method
+Aug 11, 2020 1:10:26 PM SomeTest doSomething
+INFO: beforeDoSomethingAssert
+Aug 11, 2020 1:10:26 PM BaseTest after
+INFO: After Method
+]]></system-err>
+</testsuite>
