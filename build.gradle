@@ -28,4 +28,23 @@ test {
         events "PASSED", "STARTED", "FAILED", "SKIPPED"
     }
 }
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:2.3"
+    }
+}
+
+plugins {
+    id 'io.qameta.allure'
+}
+
+allure {
+    version = '2.2.1'
+    autoconfigure = true
+    aspectjweaver = true
+    allureJavaVersion = LATEST_VERSION
+}
 
