@@ -1,15 +1,21 @@
 buildscript {
     repositories {
-        jcenter()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
     }
     dependencies {
-        classpath "io.qameta.allure:allure-gradle:2.3"
+        classpath "io.qameta.allure:allure-gradle:2.5"
     }
 }
 
 plugins {
+    id "io.qameta.allure" version "2.5"
+//    id "com.gradle.build-scan" version "1.13.4"
+}
+
+plugins {
     id 'java'
-    id 'io.qameta.allure'
 }
 
 group 'org.example'
@@ -39,9 +45,9 @@ test {
     }
 }
 allure {
-    version = '2.2.1'
+    version = '2.28.1'
     autoconfigure = true
     aspectjweaver = true
-    allureJavaVersion = LATEST_VERSION
+//    allureJavaVersion = LATEST_VERSION
 }
 
