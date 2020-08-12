@@ -4,35 +4,35 @@
   "children" : [ {
     "name" : "MacBook-Pro-Swiatoslav.local",
     "children" : [ {
-      "name" : "84545@MacBook-Pro-Swiatoslav.local.Test worker(10)",
+      "name" : "85144@MacBook-Pro-Swiatoslav.local.Test worker(10)",
       "children" : [ {
         "name" : "someTest",
-        "uid" : "cbdef280c6f6db5c",
-        "parentUid" : "666c89aa244c7132619b9585a792fdbb",
+        "uid" : "aeb3d2bf6e74cf66",
+        "parentUid" : "20d3117c0c7f649d069b9cb6c46998de",
         "status" : "passed",
         "time" : {
-          "start" : 1597234848097,
-          "stop" : 1597234848241,
-          "duration" : 144
+          "start" : 1597236391571,
+          "stop" : 1597236391592,
+          "duration" : 21
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "doSomething",
-        "uid" : "274e15f9ddf25a33",
-        "parentUid" : "666c89aa244c7132619b9585a792fdbb",
+        "uid" : "ee59553204226278",
+        "parentUid" : "20d3117c0c7f649d069b9cb6c46998de",
         "status" : "passed",
         "time" : {
-          "start" : 1597234849870,
-          "stop" : 1597234849872,
-          "duration" : 2
+          "start" : 1597236391792,
+          "stop" : 1597236391795,
+          "duration" : 3
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "666c89aa244c7132619b9585a792fdbb"
+      "uid" : "20d3117c0c7f649d069b9cb6c46998de"
     } ],
     "uid" : "fd13a531facb0648773c19e3cec8e4fe"
   } ]
