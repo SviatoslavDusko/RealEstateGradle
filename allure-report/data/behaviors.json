@@ -3,29 +3,29 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "someTest",
-    "uid" : "487239e3d350b68d",
+    "uid" : "8ae593f453cb8cec",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1597143627449,
-      "stop" : 1597143627478,
-      "duration" : 29
+      "start" : 1597143794387,
+      "stop" : 1597143794407,
+      "duration" : 20
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "doSomething",
-    "uid" : "eaa5871bab487de4",
+    "uid" : "e4ec10aa0981ee82",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1597143627712,
-      "stop" : 1597143627715,
-      "duration" : 3
+      "start" : 1597143794616,
+      "stop" : 1597143794626,
+      "duration" : 10
     },
     "flaky" : false,
-    "newFailed" : false,
+    "newFailed" : true,
     "parameters" : [ ]
   } ]
 }

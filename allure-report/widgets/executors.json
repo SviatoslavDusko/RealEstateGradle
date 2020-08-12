@@ -2,9 +2,9 @@
   "name" : "Jenkins",
   "type" : "jenkins",
   "url" : "http://localhost:8080/",
-  "buildOrder" : 64,
-  "buildName" : "GradleJob #64",
-  "buildUrl" : "http://localhost:8080/job/GradleJob/64/",
+  "buildOrder" : 65,
+  "buildName" : "GradleJob #65",
+  "buildUrl" : "http://localhost:8080/job/GradleJob/65/",
   "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8080/job/GradleJob/64/allure"
+  "reportUrl" : "http://localhost:8080/job/GradleJob/65/allure"
 } ]

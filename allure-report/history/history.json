@@ -1,34 +1,23 @@
 {
-  "319ceca27a319331bb351692f1d0ce44" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "eaa5871bab487de4",
-      "reportUrl" : "http://localhost:8080/job/GradleJob/64/allure/#testresult/eaa5871bab487de4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597143627712,
-        "stop" : 1597143627715,
-        "duration" : 3
-      }
-    } ]
-  },
   "621c5c6821995e9d2d3e0ae0373129a9" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "8ae593f453cb8cec",
+      "reportUrl" : "http://localhost:8080/job/GradleJob/65/allure/#testresult/8ae593f453cb8cec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597143794387,
+        "stop" : 1597143794407,
+        "duration" : 20
+      }
+    }, {
       "uid" : "487239e3d350b68d",
       "reportUrl" : "http://localhost:8080/job/GradleJob/64/allure/#testresult/487239e3d350b68d",
       "status" : "passed",
@@ -36,6 +25,36 @@
         "start" : 1597143627449,
         "stop" : 1597143627478,
         "duration" : 29
+      }
+    } ]
+  },
+  "319ceca27a319331bb351692f1d0ce44" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e4ec10aa0981ee82",
+      "reportUrl" : "http://localhost:8080/job/GradleJob/65/allure/#testresult/e4ec10aa0981ee82",
+      "status" : "failed",
+      "statusDetails" : "expected [true] but found [false]",
+      "time" : {
+        "start" : 1597143794616,
+        "stop" : 1597143794626,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "eaa5871bab487de4",
+      "reportUrl" : "http://localhost:8080/job/GradleJob/64/allure/#testresult/eaa5871bab487de4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597143627712,
+        "stop" : 1597143627715,
+        "duration" : 3
       }
     } ]
   }

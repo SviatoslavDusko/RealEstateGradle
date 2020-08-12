@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Aug 11 14:00:27 EEST 2020","Tue Aug 11 14:00:27 EEST 2020","29","TestSuit","DataBaseTests","RETests.Test1","RETests.Test1","someTest","someTest",""
-"passed","Tue Aug 11 14:00:27 EEST 2020","Tue Aug 11 14:00:27 EEST 2020","3","TestSuit","DataBaseTests","SomeTest","SomeTest","doSomething","doSomething",""
+"failed","Tue Aug 11 14:03:14 EEST 2020","Tue Aug 11 14:03:14 EEST 2020","10","TestSuit","DataBaseTests","SomeTest","SomeTest","doSomething","doSomething",""
+"passed","Tue Aug 11 14:03:14 EEST 2020","Tue Aug 11 14:03:14 EEST 2020","20","TestSuit","DataBaseTests","RETests.Test1","RETests.Test1","someTest","someTest",""
