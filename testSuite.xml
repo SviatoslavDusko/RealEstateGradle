@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="TestSuit">
     <!--    <listeners>-->
-    <!--        <listener class-name="com.epam.sql.banksystem.listeners.TestListener"/>-->
+    <!--        <listener class-name=""/>-->
     <!--    </listeners>-->
     <test name="DataBaseTests" parallel="false" preserve-order="true">
         <classes>

@@ -1,20 +1,20 @@
 [ {
-  "uid" : "e67b8da255e1b8c9",
-  "name" : "doSomething",
-  "time" : {
-    "start" : 1597231289738,
-    "stop" : 1597231289746,
-    "duration" : 8
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a498d594c74fc2b6",
+  "uid" : "cbdef280c6f6db5c",
   "name" : "someTest",
   "time" : {
-    "start" : 1597231289488,
-    "stop" : 1597231289514,
-    "duration" : 26
+    "start" : 1597234848097,
+    "stop" : 1597234848241,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "274e15f9ddf25a33",
+  "name" : "doSomething",
+  "time" : {
+    "start" : 1597234849870,
+    "stop" : 1597234849872,
+    "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"

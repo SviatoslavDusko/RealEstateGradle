@@ -4,10 +4,10 @@
     "uid" : "004989b12097aef1e704e7eb65d713f0",
     "name" : "TestSuit",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 2
     }
