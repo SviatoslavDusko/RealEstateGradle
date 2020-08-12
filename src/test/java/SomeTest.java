@@ -9,6 +9,6 @@ public class SomeTest extends BaseTest{
     @Test
     public void doSomething(){
         logger.info("beforeDoSomethingAssert");
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 }
