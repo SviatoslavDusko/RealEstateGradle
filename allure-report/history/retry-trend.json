@@ -1,56 +1,57 @@
-[
-  {
-    "buildOrder": 69,
-    "reportUrl": "http://localhost:8080/job/GradleJob/69/allure",
-    "reportName": "AllureReport",
-    "data": {
-      "run": 2,
-      "retry": 0
-    }
-  },
-  {
-    "buildOrder": 68,
-    "reportUrl": "http://localhost:8080/job/GradleJob/68/allure",
-    "reportName": "AllureReport",
-    "data": {
-      "run": 2,
-      "retry": 0
-    }
-  },
-  {
-    "buildOrder": 67,
-    "reportUrl": "http://localhost:8080/job/GradleJob/67/allure",
-    "reportName": "AllureReport",
-    "data": {
-      "run": 2,
-      "retry": 0
-    }
-  },
-  {
-    "buildOrder": 66,
-    "reportUrl": "http://localhost:8080/job/GradleJob/66/allure",
-    "reportName": "AllureReport",
-    "data": {
-      "run": 2,
-      "retry": 0
-    }
-  },
-  {
-    "buildOrder": 65,
-    "reportUrl": "http://localhost:8080/job/GradleJob/65/allure",
-    "reportName": "AllureReport",
-    "data": {
-      "run": 2,
-      "retry": 0
-    }
-  },
-  {
-    "buildOrder": 64,
-    "reportUrl": "http://localhost:8080/job/GradleJob/64/allure",
-    "reportName": "AllureReport",
-    "data": {
-      "run": 2,
-      "retry": 0
-    }
+[ {
+  "buildOrder" : 70,
+  "reportUrl" : "http://localhost:8080/job/GradleJob/70/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
   }
-]
+}, {
+  "buildOrder" : 69,
+  "reportUrl" : "http://localhost:8080/job/GradleJob/69/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 68,
+  "reportUrl" : "http://localhost:8080/job/GradleJob/68/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 67,
+  "reportUrl" : "http://localhost:8080/job/GradleJob/67/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 66,
+  "reportUrl" : "http://localhost:8080/job/GradleJob/66/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 65,
+  "reportUrl" : "http://localhost:8080/job/GradleJob/65/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 64,
+  "reportUrl" : "http://localhost:8080/job/GradleJob/64/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 2,
+    "retry" : 0
+  }
+} ]
