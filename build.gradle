@@ -9,7 +9,6 @@ buildscript {
 
 plugins {
     id 'io.qameta.allure' version "2.5"
-//    id "com.gradle.build-scan" version "1.13.4"
 }
 
 plugins {
@@ -22,13 +21,6 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
-
-//plugins {
-//    allurePlugin {
-//        id = 'io.qameta.allure'
-//        implementationClass = 'io.qameta.allure.gradle.AllurePlugin'
-//    }
-//}
 
 dependencies {
     compile group: 'org.testng', name: 'testng', version: '6.8'
@@ -43,10 +35,10 @@ test {
         events "PASSED", "STARTED", "FAILED", "SKIPPED"
     }
 }
+
 allure {
     version = '2.28.1'
     autoconfigure = true
     aspectjweaver = true
-//    allureJavaVersion = LATEST_VERSION
 }
 

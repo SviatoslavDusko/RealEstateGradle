@@ -7,16 +7,16 @@
       "name" : "expected [true] but found [false]",
       "children" : [ {
         "name" : "doSomething",
-        "uid" : "e4ec10aa0981ee82",
+        "uid" : "a1aa10b5ce30d95d",
         "parentUid" : "067aa11ae245eca950dc984999fefd6d",
         "status" : "failed",
         "time" : {
-          "start" : 1597143794616,
-          "stop" : 1597143794626,
-          "duration" : 10
+          "start" : 1597226736913,
+          "stop" : 1597226736920,
+          "duration" : 7
         },
         "flaky" : false,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
       "uid" : "067aa11ae245eca950dc984999fefd6d"

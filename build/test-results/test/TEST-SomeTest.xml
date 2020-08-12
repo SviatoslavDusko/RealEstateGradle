@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SomeTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-08-11T11:03:14" hostname="MacBook-Pro-Swiatoslav.local" time="0.009">
+<testsuite name="SomeTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-08-12T10:05:36" hostname="MacBook-Pro-Swiatoslav.local" time="0.007">
   <properties/>
-  <testcase name="doSomething" classname="SomeTest" time="0.009">
+  <testcase name="doSomething" classname="SomeTest" time="0.007">
     <failure message="java.lang.AssertionError: expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
@@ -63,11 +63,11 @@
   <system-out><![CDATA[Before
 After
 ]]></system-out>
-  <system-err><![CDATA[Aug 11, 2020 2:03:14 PM BaseTest before
+  <system-err><![CDATA[Aug 12, 2020 1:05:36 PM BaseTest before
 INFO: Before Method
-Aug 11, 2020 2:03:14 PM SomeTest doSomething
+Aug 12, 2020 1:05:36 PM SomeTest doSomething
 INFO: beforeDoSomethingAssert
-Aug 11, 2020 2:03:14 PM BaseTest after
+Aug 12, 2020 1:05:36 PM BaseTest after
 INFO: After Method
 ]]></system-err>
 </testsuite>
