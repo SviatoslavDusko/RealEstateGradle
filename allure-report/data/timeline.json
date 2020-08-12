@@ -1,39 +1,46 @@
 {
-  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
-  "children" : [ {
-    "name" : "MacBook-Pro-Swiatoslav.local",
-    "children" : [ {
-      "name" : "82278@MacBook-Pro-Swiatoslav.local.Test worker(10)",
-      "children" : [ {
-        "name" : "someTest",
-        "uid" : "d51ccdd1adafa08b",
-        "parentUid" : "0b909ee6bb5bb73431cede3485e7e087",
-        "status" : "passed",
-        "time" : {
-          "start" : 1597227394635,
-          "stop" : 1597227394678,
-          "duration" : 43
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "doSomething",
-        "uid" : "aa50d77b8278936a",
-        "parentUid" : "0b909ee6bb5bb73431cede3485e7e087",
-        "status" : "failed",
-        "time" : {
-          "start" : 1597227394949,
-          "stop" : 1597227394957,
-          "duration" : 8
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "0b909ee6bb5bb73431cede3485e7e087"
-    } ],
-    "uid" : "fd13a531facb0648773c19e3cec8e4fe"
-  } ]
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name": "timeline",
+  "children": [
+    {
+      "name": "MacBook-Pro-Swiatoslav.local",
+      "children": [
+        {
+          "name": "82988@MacBook-Pro-Swiatoslav.local.Test worker(10)",
+          "children": [
+            {
+              "name": "doSomething",
+              "uid": "ca9e4f5d9b6d895e",
+              "parentUid": "db08c07110abdbca0d9eeefe98a4702d",
+              "status": "passed",
+              "time": {
+                "start": 1597229295064,
+                "stop": 1597229295069,
+                "duration": 5
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            },
+            {
+              "name": "someTest",
+              "uid": "f06f437708dc62d6",
+              "parentUid": "db08c07110abdbca0d9eeefe98a4702d",
+              "status": "passed",
+              "time": {
+                "start": 1597229294761,
+                "stop": 1597229294791,
+                "duration": 30
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            }
+          ],
+          "uid": "db08c07110abdbca0d9eeefe98a4702d"
+        }
+      ],
+      "uid": "fd13a531facb0648773c19e3cec8e4fe"
+    }
+  ]
 }

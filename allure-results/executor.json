@@ -1,1 +1,10 @@
-{"buildName":"GradleJob #61","buildOrder":"61","reportName":"AllureReport","name":"Jenkins","buildUrl":"http://localhost:8080/job/GradleJob/61/","reportUrl":"http://localhost:8080/job/GradleJob/61/allure","type":"jenkins","url":"http://localhost:8080/"}
+{
+  "buildName": "GradleJob #61",
+  "buildOrder": "61",
+  "reportName": "AllureReport",
+  "name": "Jenkins",
+  "buildUrl": "http://localhost:8080/job/GradleJob/61/",
+  "reportUrl": "http://localhost:8080/job/GradleJob/61/allure",
+  "type": "jenkins",
+  "url": "http://localhost:8080/"
+}

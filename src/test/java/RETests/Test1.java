@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class Test1 {
 
     @Test
-    public void someTest(){
+    public void someTest() {
         Assert.assertTrue(true);
     }
 }

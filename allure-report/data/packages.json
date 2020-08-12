@@ -1,39 +1,46 @@
 {
-  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
-  "children" : [ {
-    "name" : "RETests.Test1",
-    "children" : [ {
-      "name" : "someTest",
-      "uid" : "d51ccdd1adafa08b",
-      "parentUid" : "1b5c7beaecfa9252c0e77d1415f2e5bc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597227394635,
-        "stop" : 1597227394678,
-        "duration" : 43
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "RETests.Test1"
-  }, {
-    "name" : "SomeTest",
-    "children" : [ {
-      "name" : "doSomething",
-      "uid" : "aa50d77b8278936a",
-      "parentUid" : "e7f7b50084e572cd6cb6e64a70b5ad0f",
-      "status" : "failed",
-      "time" : {
-        "start" : 1597227394949,
-        "stop" : 1597227394957,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "e7f7b50084e572cd6cb6e64a70b5ad0f"
-  } ]
+  "uid": "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name": "packages",
+  "children": [
+    {
+      "name": "RETests.Test1",
+      "children": [
+        {
+          "name": "someTest",
+          "uid": "f06f437708dc62d6",
+          "parentUid": "1b5c7beaecfa9252c0e77d1415f2e5bc",
+          "status": "passed",
+          "time": {
+            "start": 1597229294761,
+            "stop": 1597229294791,
+            "duration": 30
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": []
+        }
+      ],
+      "uid": "RETests.Test1"
+    },
+    {
+      "name": "SomeTest",
+      "children": [
+        {
+          "name": "doSomething",
+          "uid": "ca9e4f5d9b6d895e",
+          "parentUid": "e7f7b50084e572cd6cb6e64a70b5ad0f",
+          "status": "passed",
+          "time": {
+            "start": 1597229295064,
+            "stop": 1597229295069,
+            "duration": 5
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": []
+        }
+      ],
+      "uid": "e7f7b50084e572cd6cb6e64a70b5ad0f"
+    }
+  ]
 }

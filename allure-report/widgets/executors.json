@@ -1,10 +1,12 @@
-[ {
-  "name" : "Jenkins",
-  "type" : "jenkins",
-  "url" : "http://localhost:8080/",
-  "buildOrder" : 67,
-  "buildName" : "GradleJob #67",
-  "buildUrl" : "http://localhost:8080/job/GradleJob/67/",
-  "reportName" : "AllureReport",
-  "reportUrl" : "http://localhost:8080/job/GradleJob/67/allure"
-} ]
+[
+  {
+    "name": "Jenkins",
+    "type": "jenkins",
+    "url": "http://localhost:8080/",
+    "buildOrder": 69,
+    "buildName": "GradleJob #69",
+    "buildUrl": "http://localhost:8080/job/GradleJob/69/",
+    "reportName": "AllureReport",
+    "reportUrl": "http://localhost:8080/job/GradleJob/69/allure"
+  }
+]

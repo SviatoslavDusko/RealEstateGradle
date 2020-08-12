@@ -1,99 +1,149 @@
 {
-  "621c5c6821995e9d2d3e0ae0373129a9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 4
+  "621c5c6821995e9d2d3e0ae0373129a9": {
+    "statistic": {
+      "failed": 0,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 6,
+      "unknown": 0,
+      "total": 6
     },
-    "items" : [ {
-      "uid" : "d51ccdd1adafa08b",
-      "reportUrl" : "http://localhost:8080/job/GradleJob/67/allure/#testresult/d51ccdd1adafa08b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597227394635,
-        "stop" : 1597227394678,
-        "duration" : 43
+    "items": [
+      {
+        "uid": "f06f437708dc62d6",
+        "reportUrl": "http://localhost:8080/job/GradleJob/69/allure/#testresult/f06f437708dc62d6",
+        "status": "passed",
+        "time": {
+          "start": 1597229294761,
+          "stop": 1597229294791,
+          "duration": 30
+        }
+      },
+      {
+        "uid": "9eaa47f2aae47f0",
+        "reportUrl": "http://localhost:8080/job/GradleJob/68/allure/#testresult/9eaa47f2aae47f0",
+        "status": "passed",
+        "time": {
+          "start": 1597227512348,
+          "stop": 1597227512385,
+          "duration": 37
+        }
+      },
+      {
+        "uid": "d51ccdd1adafa08b",
+        "reportUrl": "http://localhost:8080/job/GradleJob/67/allure/#testresult/d51ccdd1adafa08b",
+        "status": "passed",
+        "time": {
+          "start": 1597227394635,
+          "stop": 1597227394678,
+          "duration": 43
+        }
+      },
+      {
+        "uid": "332039aff0903ef7",
+        "reportUrl": "http://localhost:8080/job/GradleJob/66/allure/#testresult/332039aff0903ef7",
+        "status": "passed",
+        "time": {
+          "start": 1597226736673,
+          "stop": 1597226736697,
+          "duration": 24
+        }
+      },
+      {
+        "uid": "8ae593f453cb8cec",
+        "reportUrl": "http://localhost:8080/job/GradleJob/65/allure/#testresult/8ae593f453cb8cec",
+        "status": "passed",
+        "time": {
+          "start": 1597143794387,
+          "stop": 1597143794407,
+          "duration": 20
+        }
+      },
+      {
+        "uid": "487239e3d350b68d",
+        "reportUrl": "http://localhost:8080/job/GradleJob/64/allure/#testresult/487239e3d350b68d",
+        "status": "passed",
+        "time": {
+          "start": 1597143627449,
+          "stop": 1597143627478,
+          "duration": 29
+        }
       }
-    }, {
-      "uid" : "332039aff0903ef7",
-      "reportUrl" : "http://localhost:8080/job/GradleJob/66/allure/#testresult/332039aff0903ef7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597226736673,
-        "stop" : 1597226736697,
-        "duration" : 24
-      }
-    }, {
-      "uid" : "8ae593f453cb8cec",
-      "reportUrl" : "http://localhost:8080/job/GradleJob/65/allure/#testresult/8ae593f453cb8cec",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597143794387,
-        "stop" : 1597143794407,
-        "duration" : 20
-      }
-    }, {
-      "uid" : "487239e3d350b68d",
-      "reportUrl" : "http://localhost:8080/job/GradleJob/64/allure/#testresult/487239e3d350b68d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597143627449,
-        "stop" : 1597143627478,
-        "duration" : 29
-      }
-    } ]
+    ]
   },
-  "319ceca27a319331bb351692f1d0ce44" : {
-    "statistic" : {
-      "failed" : 3,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 4
+  "319ceca27a319331bb351692f1d0ce44": {
+    "statistic": {
+      "failed": 3,
+      "broken": 0,
+      "skipped": 0,
+      "passed": 3,
+      "unknown": 0,
+      "total": 6
     },
-    "items" : [ {
-      "uid" : "aa50d77b8278936a",
-      "reportUrl" : "http://localhost:8080/job/GradleJob/67/allure/#testresult/aa50d77b8278936a",
-      "status" : "failed",
-      "statusDetails" : "expected [true] but found [false]",
-      "time" : {
-        "start" : 1597227394949,
-        "stop" : 1597227394957,
-        "duration" : 8
+    "items": [
+      {
+        "uid": "ca9e4f5d9b6d895e",
+        "reportUrl": "http://localhost:8080/job/GradleJob/69/allure/#testresult/ca9e4f5d9b6d895e",
+        "status": "passed",
+        "time": {
+          "start": 1597229295064,
+          "stop": 1597229295069,
+          "duration": 5
+        }
+      },
+      {
+        "uid": "106bd38b12300a2b",
+        "reportUrl": "http://localhost:8080/job/GradleJob/68/allure/#testresult/106bd38b12300a2b",
+        "status": "passed",
+        "time": {
+          "start": 1597227512774,
+          "stop": 1597227512778,
+          "duration": 4
+        }
+      },
+      {
+        "uid": "aa50d77b8278936a",
+        "reportUrl": "http://localhost:8080/job/GradleJob/67/allure/#testresult/aa50d77b8278936a",
+        "status": "failed",
+        "statusDetails": "expected [true] but found [false]",
+        "time": {
+          "start": 1597227394949,
+          "stop": 1597227394957,
+          "duration": 8
+        }
+      },
+      {
+        "uid": "a1aa10b5ce30d95d",
+        "reportUrl": "http://localhost:8080/job/GradleJob/66/allure/#testresult/a1aa10b5ce30d95d",
+        "status": "failed",
+        "statusDetails": "expected [true] but found [false]",
+        "time": {
+          "start": 1597226736913,
+          "stop": 1597226736920,
+          "duration": 7
+        }
+      },
+      {
+        "uid": "e4ec10aa0981ee82",
+        "reportUrl": "http://localhost:8080/job/GradleJob/65/allure/#testresult/e4ec10aa0981ee82",
+        "status": "failed",
+        "statusDetails": "expected [true] but found [false]",
+        "time": {
+          "start": 1597143794616,
+          "stop": 1597143794626,
+          "duration": 10
+        }
+      },
+      {
+        "uid": "eaa5871bab487de4",
+        "reportUrl": "http://localhost:8080/job/GradleJob/64/allure/#testresult/eaa5871bab487de4",
+        "status": "passed",
+        "time": {
+          "start": 1597143627712,
+          "stop": 1597143627715,
+          "duration": 3
+        }
       }
-    }, {
-      "uid" : "a1aa10b5ce30d95d",
-      "reportUrl" : "http://localhost:8080/job/GradleJob/66/allure/#testresult/a1aa10b5ce30d95d",
-      "status" : "failed",
-      "statusDetails" : "expected [true] but found [false]",
-      "time" : {
-        "start" : 1597226736913,
-        "stop" : 1597226736920,
-        "duration" : 7
-      }
-    }, {
-      "uid" : "e4ec10aa0981ee82",
-      "reportUrl" : "http://localhost:8080/job/GradleJob/65/allure/#testresult/e4ec10aa0981ee82",
-      "status" : "failed",
-      "statusDetails" : "expected [true] but found [false]",
-      "time" : {
-        "start" : 1597143794616,
-        "stop" : 1597143794626,
-        "duration" : 10
-      }
-    }, {
-      "uid" : "eaa5871bab487de4",
-      "reportUrl" : "http://localhost:8080/job/GradleJob/64/allure/#testresult/eaa5871bab487de4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597143627712,
-        "stop" : 1597143627715,
-        "duration" : 3
-      }
-    } ]
+    ]
   }
 }
