@@ -5,13 +5,13 @@
     "name" : "RETests.Test1",
     "children" : [ {
       "name" : "someTest",
-      "uid" : "59a70c1921aee0ee",
+      "uid" : "a498d594c74fc2b6",
       "parentUid" : "1b5c7beaecfa9252c0e77d1415f2e5bc",
       "status" : "passed",
       "time" : {
-        "start" : 1597230575946,
-        "stop" : 1597230575988,
-        "duration" : 42
+        "start" : 1597231289488,
+        "stop" : 1597231289514,
+        "duration" : 26
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,16 +22,16 @@
     "name" : "SomeTest",
     "children" : [ {
       "name" : "doSomething",
-      "uid" : "ff31a732127b31f3",
+      "uid" : "e67b8da255e1b8c9",
       "parentUid" : "e7f7b50084e572cd6cb6e64a70b5ad0f",
-      "status" : "passed",
+      "status" : "failed",
       "time" : {
-        "start" : 1597230576359,
-        "stop" : 1597230576368,
-        "duration" : 9
+        "start" : 1597231289738,
+        "stop" : 1597231289746,
+        "duration" : 8
       },
-      "flaky" : false,
-      "newFailed" : false,
+      "flaky" : true,
+      "newFailed" : true,
       "parameters" : [ ]
     } ],
     "uid" : "e7f7b50084e572cd6cb6e64a70b5ad0f"

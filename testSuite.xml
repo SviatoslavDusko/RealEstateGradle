@@ -10,13 +10,4 @@
             <class name="SomeTest"/>
         </classes>
     </test>
-    <!--    <test name="DataBaseTests" parallel="false" preserve-order="true">-->
-    <!--        <classes>-->
-    <!--            <class name="babksystemtests.BaseTest"/>-->
-    <!--            <class name="babksystemtests.LocationTest"/>-->
-    <!--            <class name="babksystemtests.BankTest"/>-->
-    <!--            <class name="babksystemtests.PersonTest"/>-->
-    <!--            <class name="babksystemtests.LoanTest"/>-->
-    <!--        </classes>-->
-    <!--    </test>-->
 </suite>
